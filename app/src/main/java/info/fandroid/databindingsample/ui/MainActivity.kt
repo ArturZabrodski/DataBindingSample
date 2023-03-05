@@ -16,22 +16,11 @@
  */
 
 package info.fandroid.databindingsample.ui
-
-import android.content.Context
-import android.content.res.ColorStateList
-import android.graphics.drawable.Drawable
 import android.os.Bundle
-import android.view.View
-import android.widget.ImageView
-import android.widget.ProgressBar
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
-import androidx.core.widget.ImageViewCompat
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProviders
 import info.fandroid.databindingsample.R
-import info.fandroid.databindingsample.data.Popularity
 import info.fandroid.databindingsample.data.SimpleViewModel
 import info.fandroid.databindingsample.databinding.ActivityMainBinding
 
